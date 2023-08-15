@@ -1,0 +1,7 @@
+syntax = "proto3";
+package testwasm2.testwasm2;
+
+option go_package = "testwasm2/x/testwasm2/types";
+
+// Msg defines the Msg service.
+service Msg {}

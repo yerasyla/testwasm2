@@ -1,0 +1,12 @@
+syntax = "proto3";
+package testwasm2.testwasm2;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "testwasm2/x/testwasm2/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
